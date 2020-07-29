@@ -10,7 +10,7 @@ package com.josephsousa.questao3;
 
 public class CalculaIdadeEmDias {
     
-    final int dias=365;
+    private final int dias=365;
     
     public int calcularIdadeEmDias(int idade){
         return idade*dias;

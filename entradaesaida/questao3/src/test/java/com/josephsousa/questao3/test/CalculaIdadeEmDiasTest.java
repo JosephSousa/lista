@@ -9,7 +9,7 @@ import junit.framework.TestCase;
  * @Email jsantos.te@gmail.com
  */
 public class CalculaIdadeEmDiasTest extends TestCase{
-      CalculaIdadeEmDias calc= new CalculaIdadeEmDias();
+      private CalculaIdadeEmDias calc= new CalculaIdadeEmDias();
     public void testeCalcularIdadeEmDias(){
         assertEquals(9125, calc.calcularIdadeEmDias(25));
     }
